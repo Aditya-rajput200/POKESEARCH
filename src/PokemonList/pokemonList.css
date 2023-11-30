@@ -1,0 +1,31 @@
+.heading-wrpper{
+
+    text-align: center;
+    font-size: 1.5rem;
+}
+.PokemonList-wrpper{
+
+  display: flex;
+  flex-direction: column;
+ align-items: center; 
+}
+.PokemonList{
+  display:flex ;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+}
+.controlers{
+
+padding: 5px ,10px,0,10px;
+
+}
+.controlers> button {
+  margin : 2px;
+  padding: 10px;
+  border-radius: 5rem;
+ color: brown;
+ 
+
+}

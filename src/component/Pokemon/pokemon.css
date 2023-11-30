@@ -1,0 +1,52 @@
+.Pokemon-wrapper{
+    display: block;
+    width: 20%;
+    max-width: 20%;
+    max-height: 20%;
+
+}
+
+.Pokemon{
+
+    display: flex;
+    flex-direction: column;
+   
+    
+    padding: 10px;
+    margin: 10px  ;
+    height: 40vh;
+    align-items: center;
+    border-radius: 10px;
+  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.Pokemon:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+    height: 42vh;
+    animation: forwards;
+    cursor: pointer;
+
+}
+.Image{
+       padding-top: 20px;
+     width: 130px;
+     height: 20px;
+    
+     
+}
+
+.name{
+
+    font-size: 20px;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+ #img {
+   position: absolute;
+    width: 200px;
+   
+
+ }
